@@ -15,7 +15,7 @@ body{
   min-height: 100vh;
   flex-direction: column;
   gap: 30px;
-  background: #ffffff;
+  background: #1d2b3a;
 }
 
 .inputbox
@@ -28,10 +28,10 @@ body{
   width: 100%;
   padding: 10px;
   border: 1px solid rgba(255, 255,255,0.25);
-  background: #ffffff;
+  background: #1d2b3a;
   border-radius: 5px;
   outline: none;
-  color: #68b4bd;
+  color: #fff;
   font-size: 1em;
 }
 
