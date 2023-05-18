@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Study Planner</title>
     <link rel="stylesheet" href="planner.css">
+
 </head>
+
 <body>
-        <div class="inputbox">
-           <input type="text" required="required">
-           <span>YEAR/MONTH/DAY</span>
+    <div class=first_back>
+        <div class=first_container>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>year/month/day</span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>comment</span>
+            </div>
         </div>
-        <div class="inputbox">
-            <input type="text" required="required">
-            <span>D-DAY</span>
-         </div>
- 
-      
+        <div class=second_container>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>d-day</span>
+            </div>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>total time</span>
+            </div>
+        </div>
+    </div>
+    <div class=second_back>
+        <div class=third_container>
+            <table id = "table">
+                <thead id = thead></thead>
+                <tbody id = tbody></tbody>
+            </table>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>memo</span>
+            </div>
+        </div>
+        <div class=fourth_container>
+            <div class="inputbox">
+                <input type="text" required="required">
+                <span>timetable</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="planner.js"></script>
 </body>
 </html>
