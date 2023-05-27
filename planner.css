@@ -75,3 +75,18 @@ body{
   display: flex;
 }
 
+table {
+  border-collapse: collapse;
+  width: 250px;
+}
+
+table th,
+table td {
+  border: 1px solid;
+  text-align: center;
+}
+
+table th {
+  font-weight: bold;
+}
+
