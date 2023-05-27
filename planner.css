@@ -3,7 +3,6 @@
 /* 별은 전체를 의미 - 즉 모든 글꼴에 해당 글씨체 적용*/
 *{ 
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -90,3 +89,8 @@ table th {
   font-weight: bold;
 }
 
+#plus_btn,
+#table,
+#check_btn  {
+  display: inline-block;
+}
