@@ -74,8 +74,8 @@ body{
   display: flex;
 }
 
-.first_back #table,
-.second_back #table {
+.first_back #todo_table,
+.second_back #todo_table {
   display: inline-block;
   align-items: center;
 }
