@@ -72,8 +72,6 @@ body{
 .first_back,
 .second_back {
   display: flex;
-  justify-content: center; /* 여기가 추가된 부분입니다 */
-  align-items: center;
 }
 
 .first_back #table,
